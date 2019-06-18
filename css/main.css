@@ -1,0 +1,307 @@
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../fonts/OpenSans-Regular.woff2) format(woff2),
+      url(../fonts/OpenSans-Regular.woff) format(woff),
+      url(../fonts/OpenSans-Regular.ttf) format(ttf);
+      font-weight: 400;
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../fonts/OpenSans-Bold.woff2) format(woff2),
+      url(../fonts/OpenSans-Bold.woff) format(woff),
+      url(../fonts/OpenSans-Bold.ttf) format(ttf);
+  font-weight: 600;
+}
+
+body, header, h1, h2, h3, div, p {
+  margin: 0;
+  box-sizing: border-box;
+} 
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Open Sans, Arial, sans-serif;
+}
+
+.header,
+.footer {
+  padding-right: 6.25vw;
+  padding-left: 6.25vw;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: block;
+  width: 13.5rem;
+  height: 3.5rem;
+  margin: 0 auto;
+}
+
+.logo svg {
+  fill: #ffffff;
+  stroke: #ffffff;
+}
+
+.header {
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_767.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #090c35;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+  width: 100%;
+  
+
+ 
+    
+  position: relative;
+  text-align: center;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #090c35;   
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+.header-title,
+.header-subtitle {
+  font-size: 2.8rem;
+}
+
+.header-title {
+  margin-top: 13.5rem;
+  margin-bottom: 3rem;
+}
+
+.header-subtitle {
+  margin-bottom: 9rem;
+  margin-left: 4.5rem;
+}
+
+.header-container {
+  z-index: 999;
+}
+
+.download-btn {
+  display: flex;
+  width: 100%;
+  padding: 0.5rem 8.2rem;
+  font-size: 0.8rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: left;
+  background-color: #5e42b0;
+  border: none;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.download-btn:hover {
+  cursor: pointer;
+  background-color: #501be9;
+  transition: none;
+}
+
+.download-btn + .download-btn {
+  margin-top: 1.5rem;
+}
+
+.download-btn__icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  fill: #ffffff;
+}
+
+.download-btn__store {
+  font-weight: 600;
+  display: block;
+}
+
+.section__title {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  padding: 2.5rem 6.25vw 0;
+}
+
+.section__img-block {
+  display: block;
+  margin: 0 auto;
+  padding: 0 6.25vw;
+  width: 100%;
+  height: 28rem;
+  margin-top: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.section__img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.section__part {
+  padding: 5.5rem 6.25vw;
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.section__part--top {
+  padding-top: 8rem;
+  margin-top: -5.5rem;
+}
+
+.section__players .section__part--top {
+  margin-top: -7.5rem;
+}
+
+.section__part--light {
+  background-color: #fafafa;
+}
+
+.section__part--gray {
+  background-color: #f5f4f9;
+}
+
+.section__part--purple {
+  color: #ffffff;
+  background-color: #5e42b0;
+}
+
+.section__part--blue {
+  color: #ffffff;
+  background-color: #090c35;
+}
+.section__subtitle,
+.section-block__title {
+  margin-bottom: 3rem;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #c1c1c1;
+  text-transform: uppercase;
+}
+
+.counter {
+  font-size: 1.4rem;
+  color: #000000;
+  border-bottom: 4px solid #5e42b0;
+  vertical-align: super;
+}
+
+.section__part--purple .counter {
+  border-bottom-color: #ffffff;
+}
+
+.section__part--blue .counter {
+  color: #5e42b0;
+  border-bottom-color: #ffffff;
+}
+
+.counter--block {
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5e42b0;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.counter--block .counter {
+  border-bottom-color: #8f7bc8;
+  color: #ffffff;
+}
+
+.section-block__title,
+.section-block__text {
+  padding: 0 6.25vw;
+}
+
+.section-block__title {
+  margin-top: -6rem;
+}
+
+.section-block__text {
+  font-size: 1.6rem;
+  margin-bottom: 7rem;
+}
+
+.footer {
+  background-image: url(../images/footer-320.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10rem 6.25vw 0.5rem;
+}
+
+.logo__icon {
+  display: block;
+  box-sizing: border-box;
+  width: 7.2rem;
+  height: 7.2rem;
+  margin: 0 auto;
+  padding: 1.4rem 0.7rem;
+  background-color: #5e42b0;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.logo__icon:hover {
+  background-color: #501be9;
+  transition: none;
+}
+
+.logo__icon svg {
+  width: 5.5rem;
+  height: 4.5rem;
+  stroke: #ffffff;
+}
+
+.footer__title {
+  margin-top: 6rem;
+  font-size: 3.2rem;
+}
+
+.footer__subtitle {
+  margin-bottom: 7rem;
+  font-size: 1.4rem;
+  color: #9b8ec1;
+  line-height: 2.5;
+}
+
+.footer__logo {
+  margin-top: 8.5rem;
+}
+
+
+

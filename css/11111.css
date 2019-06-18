@@ -1,0 +1,457 @@
+@font-face {
+  font-family: 'OpenSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format('woff2');
+}
+
+body, header, section, div, p, h1, h2, h3, main, ul, button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: OpenSans-Regular, Arial, sans-serif;
+  font-weight: 400;
+}
+
+
+.header{
+  font-family: OpenSans-Bold, Arial, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_767.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1f2348;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background-position: 50% 50%;
+}
+
+.header::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #1f2348;   
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+}
+
+.wrapper {
+  padding-left: 6.25%;
+  padding-right: 6.25%;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+.logo {
+  display: block;
+  width: 13.3rem;
+  height: 3.3rem;
+  margin: 0 auto;
+}
+
+.logo svg {
+  fill: #fff;
+}
+
+
+.titles-container {
+
+}
+
+.header-title,
+.header-subtitle {
+  font-size: 2.8rem;
+}
+
+.header-title {
+  text-align: left;
+  margin-top: 13.2rem;
+  margin-bottom: 2rem;
+}
+
+.header-subtitle {
+  text-align: left;
+  margin-bottom: 8rem;
+  margin-left: 4.5rem;
+}
+
+.buttons-container {
+
+}
+
+.btn-download {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.6rem 8rem;
+  font-size: 0.8rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: left;
+  background-color: #5e42b0;
+  border: none;
+  border-radius: 16px 16px 17px 18px;
+}
+
+.btn-download-icon {
+  width: 2.2rem;
+  height: 2.4rem;
+  margin-right: 0.8rem;
+  fill: #ffffff;
+}
+
+
+.btn-download-store {
+  font-weight: 700;
+  display: block;
+}
+
+.btn-download + .btn-download {
+  margin-top: 1.3rem;
+}
+
+.main {
+  margin-top: 2.4rem;
+}
+
+.section {
+
+}
+
+.section-athlets {
+
+}
+  
+
+.section-title {
+  font-size: 5rem;
+  font-family: OpenSans-Bold, Arial, sans-serif;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  padding-left: 6.25%;
+}
+
+.section-img-container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 23rem;
+  margin-top: 0.2rem;
+  z-index: 1;
+}
+
+.section-img {
+  position: absolute;
+  top: 0.4rem;
+  left: 7rem;
+  max-width: 100%;
+  
+}
+
+.athlets {
+
+}
+
+.section-block {
+  padding: 5rem 2rem 5rem 2rem;
+  font-size: 1.5rem;
+}
+
+.section-img-container ~ .section-connection {
+  padding: 8rem 2rem 5rem 2rem;
+  font-size: 1.5rem;
+}
+
+.section-connection {
+  background-color: #fafafa;
+}
+
+.section-subtitle {
+  font-family: OpenSans-Bold, Arial, sans-serif;
+  color: #c1c1c1;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-size: 2.3rem;
+}
+
+.section-numb {
+  margin-right: 0.9rem;
+  font-size: 1.4rem;
+  color: #000;
+  border-bottom: 4px solid #5e42b0; 
+  vertical-align: super;
+}
+
+.section-text {
+  font-size: 1.5rem;
+}
+
+.section-collaboration {
+  background-color: #f5f4f9;
+}
+
+.section-growth {
+  color: #fff;
+  background-color: #5e42b0;
+}
+
+.players {
+
+}
+
+.section-growth .section-numb {
+  border-bottom: 4px solid #fff;
+}
+
+.section-players .section-img {
+  position: absolute;
+  top: 0.8rem;
+  left: 1rem;
+  max-width: 100%; 
+}
+
+.section-players .section-growth {
+  background-color: #090c35;
+  padding-right: 6.7rem;
+}
+
+
+.section-players .section-growth .section-numb {
+  color: #8765dd; 
+  background-color: #090c35;
+}
+
+.section-action {
+
+}
+
+.section-action-img {
+  width: 100%;
+}
+
+.section-action-title {
+  font-family: OpenSans-Bold, Arial, sans-serif;
+  color: #c1c1c1;
+  text-transform: uppercase;
+  margin-bottom: 1.3rem;
+  font-size: 2.8rem;
+}
+
+.action-numb {
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  background-color: #5e42b0;
+  position: relative;
+  margin-bottom: 1.8rem;
+}
+
+.section-action .section-numb {
+  border-bottom-color: #8f7bc8;
+  color: #ffffff;
+  margin: auto;
+}
+
+.section-action-title,
+.section-action-text {
+  padding: 0 2rem;
+}
+
+.section-action-title {
+  margin-top: -6rem;
+}
+
+.section-action-text {
+  font-size: 1.6rem;
+  margin-bottom: 7rem;
+}
+
+.footer {
+  background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_767.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10rem 6.25vw 0.5rem;
+  position: relative;
+}
+
+.footer::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #1f2348;   
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+}
+
+.footer-logo-icon {
+  display: block;
+  box-sizing: border-box;
+  width: 7.2rem;
+  height: 7.2rem;
+  margin: 0 auto;
+  padding: 1.4rem 0.7rem;
+  background-color: #5e42b0;
+  border-radius: 15px;
+}
+
+.footer-logo-icon svg {
+  width: 5.5rem;
+  height: 4.5rem;
+  stroke: #ffffff;
+}
+
+.footer-title {
+  font-family: OpenSans-Bold, Arial, sans-serif;
+  margin-top: 6rem;
+  font-size: 3.2rem;
+}
+
+.footer-subtitle {
+  margin-bottom: 7rem;
+  font-size: 1.4rem;
+  color: #9b8ec1;
+  line-height: 2.5;
+}
+
+.footer-logo {
+  margin-bottom: 1rem;
+  margin-top: 8.5rem;
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  html {
+    font-size: 75%; /*12px*/
+  }
+  
+  .header {
+    background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_1280.jpg");  
+  }
+
+  .header-title, .header-subtitle {
+  font-size: 5.3rem;
+  }
+
+  .logo {
+    width: 17rem;
+    height: 4.6rem;
+  } 
+
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .btn-download {
+    padding: 1.25rem 5.3rem 1.5rem 4.1rem;
+    width: 25.75rem;
+    height: 6.4rem;
+    font-size: 14px;
+    border-radius: 38px;
+    box-shadow: 0px 16px 24px 0px rgba(10, 14, 52, 0.004);
+  }
+
+  .btn-download + .btn-download {
+    margin-left: 2.5rem;
+    margin-top: 0;
+    padding: 1.5rem 6.7rem 1.5rem 4.6rem;
+  }
+
+  .icon-apple {
+    width: 3rem;
+    height: 3.5rem;
+  }
+
+  .icon-apple {
+    width: 3.4rem;
+    height: 3.7rem;
+  }
+   
+  
+
+  .section-title {
+    font-size: 2.6rem;
+  }
+
+  .section-block {
+    padding: 5rem 2rem 5rem 24.4rem;
+  }
+
+  .players .section-block {
+    padding-right: 46.3%;
+  }
+
+  .section-title {
+    
+    text-align: right;
+    font-size: 6.6rem;
+  }
+
+  .section-text {
+    font-size: 1.3rem;
+  }
+
+  .section-img-container {
+    width: 100%;
+    height: 0;
+    z-index: 1;
+  } 
+
+  .section-img {
+  position: absolute;
+  top: 0.4rem;
+  left: -12.5rem;
+  max-width: 100%;
+}
+
+  .section-subtitle {
+  font-size: 2.6rem;
+}
+
+.section-players .section-img {
+  position: absolute;
+  top: 0.8rem;
+  left: 336px;
+  max-width: 100%; 
+}
+
+}
+
+
+
